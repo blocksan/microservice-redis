@@ -57,7 +57,7 @@ export class AppController {
    * @param payload : {}
    * @returns void
    */
-  @EventPattern('cacheContent')
+  @EventPattern('clearCache')
   async clearCache() {
     await this.appService.clearContent()
   }
