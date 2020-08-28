@@ -1,6 +1,10 @@
 import { Catch, ExceptionFilter, HttpException, ArgumentsHost, HttpStatus} from '@nestjs/common'
 import { ApplicationLoggerService } from 'src/logger/logger.service'
 
+/**
+ * Custom HttpErrorFilter to catch all the exception across the application
+ * This will return the formatted exception.
+ */
 @Catch()
 export class HttpErrorFilter implements ExceptionFilter{
 
