@@ -10,6 +10,4 @@ RUN yarn install
 
 ADD . /app
 
-RUN yarn run build
-
-CMD ["yarn", "run", "start:prod"]
+CMD ["yarn", "run", "start:dev"]

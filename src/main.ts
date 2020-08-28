@@ -17,7 +17,7 @@ async function bootstrap() {
   
   app.useLogger(new ApplicationLoggerService())
   app.useGlobalPipes(new ValidationPipe({ disableErrorMessages: false, dismissDefaultMessages: false }));
-
   app.listen(() => Logger.log(`Redis Microservice started`));
+  
 }
 bootstrap();
