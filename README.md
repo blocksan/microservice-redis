@@ -93,12 +93,6 @@ yarn install
 yarn start:dev
 ```
 
-Test
-```bash
-# unit tests
-$ yarn run test
-```
-
 #### Option 2:  Running project via docker images
 To run the project using docker please use the ***docker-compose.deploy.yml*** provided with the project
 Follow the below steps to run the application
