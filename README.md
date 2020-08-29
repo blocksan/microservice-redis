@@ -1,4 +1,4 @@
-# REDIS MicroService   
+# REDIS MicroService ( [microservice-redis](https://github.com/blocksan/microservice-redis) )
 It is responsible to caching and serving the content.
 This service is built with NestJs framework with Event Pattern Microservice Architecture.
 Features included in this backend service
